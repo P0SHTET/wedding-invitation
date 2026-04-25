@@ -3,10 +3,299 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Приглашение на свадьбу</title>
+    <title>Надя и Паша</title>
+    <meta
+      name="description"
+      content="Свадебное приглашение Нади и Паши. 13 июня 2026 года в 17:00."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat+Alternates:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Сайт работает</h1>
-    <p>Здесь будет наше свадебное приглашение.</p>
+    <div class="page-shell">
+      <div class="leaf-probe leaf-probe--left" style="--top: 140px; --angle: 98deg; --size: 250px; --flip: 1; --edge: 2px;">
+        <div class="leaf-probe__rotator">
+          <img class="leaf-probe__img" src="assets/leaf.png" alt="" width="1280" height="1276" />
+        </div>
+      </div>
+      <div class="leaf-probe leaf-probe--left" style="--top: 980px; --angle: 114deg; --size: 244px; --flip: -1; --edge: 2px;">
+        <div class="leaf-probe__rotator">
+          <img class="leaf-probe__img" src="assets/leaf.png" alt="" width="1280" height="1276" />
+        </div>
+      </div>
+      <div class="leaf-probe leaf-probe--left" style="--top: 2060px; --angle: 128deg; --size: 236px; --flip: 1; --edge: -10px;">
+        <div class="leaf-probe__rotator">
+          <img class="leaf-probe__img" src="assets/leaf.png" alt="" width="1280" height="1276" />
+        </div>
+      </div>
+      <div class="leaf-probe leaf-probe--right" style="--top: 360px; --angle: 274deg; --size: 240px; --flip: 1; --edge: 2px;">
+        <div class="leaf-probe__rotator">
+          <img class="leaf-probe__img" src="assets/leaf.png" alt="" width="1280" height="1276" />
+        </div>
+      </div>
+      <div class="leaf-probe leaf-probe--right" style="--top: 1480px; --angle: 286deg; --size: 248px; --flip: -1; --edge: -6px;">
+        <div class="leaf-probe__rotator">
+          <img class="leaf-probe__img" src="assets/leaf.png" alt="" width="1280" height="1276" />
+        </div>
+      </div>
+      <div class="leaf-probe leaf-probe--right" style="--top: 2580px; --angle: 312deg; --size: 266px; --flip: -1; --edge: -18px;">
+        <div class="leaf-probe__rotator">
+          <img class="leaf-probe__img" src="assets/leaf.png" alt="" width="1280" height="1276" />
+        </div>
+      </div>
+
+      <main class="container">
+        <section class="hero reveal is-visible" id="hero">
+          <h1 class="display-title">Мы женимся!</h1>
+          <div class="hero-media">
+            <p class="hero-side-label hero-side-label--bride">невеста</p>
+            <p class="hero-side-label hero-side-label--groom">жених</p>
+            <div class="hero-photo-frame">
+              <img
+                class="hero-photo"
+                src="assets/children_photo.png"
+                alt="Надя и Паша"
+                width="980"
+                height="980"
+              />
+            </div>
+            <p class="hero-names">Надя + Паша</p>
+          </div>
+          <div class="hero-copy">
+            <p class="section-text section-text--strong">дорогие друзья и родные!</p>
+            <p class="section-text">
+              С большой радостью приглашаем Вас на наш первый семейный праздник -
+              нашу свадьбу! Мы очень хотим, чтобы в этот день с нами рядом были
+              наши самые близкие люди.
+            </p>
+          </div>
+        </section>
+
+        <section class="card reveal" id="date">
+          <div class="section-heading">
+            <h2 class="section-title">наш июнь</h2>
+          </div>
+          <div class="calendar-card">
+            <div class="calendar-card__grid" aria-hidden="true">
+              <span>пн</span>
+              <span>вт</span>
+              <span>ср</span>
+              <span>чт</span>
+              <span>пт</span>
+              <span>сб</span>
+              <span>вс</span>
+              <span class="day">8</span>
+              <span class="day">9</span>
+              <span class="day">10</span>
+              <span class="day">11</span>
+              <span class="day">12</span>
+              <span class="day day--accent">13</span>
+              <span class="day">14</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card reveal section-grid" id="location">
+          <div class="section-heading section-grid__header">
+            <h2 class="section-title">локация</h2>
+          </div>
+          <div class="media-card">
+            <img
+              class="section-image"
+              src="assets/place.png"
+              alt="Площадка White Garden"
+              width="1170"
+              height="1550"
+            />
+          </div>
+          <div class="content-card">
+            <p class="venue-name">Площадка White Garden</p>
+            <p class="venue-address">ул. Павла Морозова, 79/5</p>
+            <p class="section-text">
+              Мы выбрали место, где вечер пройдет спокойно, красиво и очень
+              по-летнему. Будем рады встретить вас там и разделить этот день
+              вместе.
+            </p>
+            <div class="actions">
+              <a
+                class="button"
+                href="https://2gis.ru/search/White%20Garden%20%D1%83%D0%BB.%20%D0%9F%D0%B0%D0%B2%D0%BB%D0%B0%20%D0%9C%D0%BE%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%B0%2C%2079%2F5"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Открыть карту
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="card reveal" id="timeline">
+          <div class="section-heading">
+            <h2 class="section-title">Тайминг</h2>
+          </div>
+          <div class="timeline timeline--arrow">
+            <article class="timeline-item timeline-item--left">
+              <time datetime="2026-06-13T16:30:00+10:00">16:30</time>
+              <p>Сбор гостей</p>
+            </article>
+            <article class="timeline-item timeline-item--right">
+              <time datetime="2026-06-13T17:00:00+10:00">17:00</time>
+              <p>Церемония</p>
+            </article>
+            <div class="timeline-arrow-wrap" aria-hidden="true">
+              <img
+                class="timeline-arrow"
+                src="assets/timing_arrow.png"
+                alt=""
+                width="240"
+                height="870"
+              />
+            </div>
+            <article class="timeline-item timeline-item--left">
+              <time datetime="2026-06-13T18:00:00+10:00">18:00</time>
+              <p>Банкет</p>
+            </article>
+            <article class="timeline-item timeline-item--right">
+              <time datetime="2026-06-13T23:00:00+10:00">23:00</time>
+              <p>Окончание</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="card reveal section-grid" id="dress-code">
+          <div class="section-heading section-grid__header">
+            <h2 class="section-title">дресс-код</h2>
+          </div>
+          <div class="content-card">
+            <p class="section-text">
+              Мы очень старались сделать праздник красивым и будем рады, если в
+              своих нарядах Вы поддержите цветовую гамму нашей свадьбы.
+            </p>
+            <div class="palette" aria-label="Палитра свадьбы">
+              <span style="background: #5c4734"></span>
+              <span style="background: #856a57"></span>
+              <span style="background: #d8ccb4"></span>
+              <span style="background: #aebea4"></span>
+              <span style="background: #5e6846"></span>
+            </div>
+          </div>
+          <div class="media-card">
+            <img
+              class="section-image section-image--narrow"
+              src="assets/dress.png"
+              alt="Пример оттенков дресс-кода"
+              width="1170"
+              height="1170"
+            />
+          </div>
+        </section>
+
+        <section class="card reveal" id="wishes">
+          <div class="section-heading">
+            <h2 class="section-title">пожелания</h2>
+          </div>
+          <div class="stack">
+            <p class="section-text">
+              Пожалуйста, не ломайте голову над подарками! Мы будем очень рады
+              вашему приятному вкладу в наше свадебное путешествие!
+            </p>
+            <p class="section-text">
+              Мы очень любим цветы, но сразу после свадьбы отправляемся в
+              путешествие и не успеем ими насладиться.
+            </p>
+          </div>
+        </section>
+
+        <section class="card reveal section-grid" id="details">
+          <div class="section-heading section-grid__header">
+            <h2 class="section-title">детали</h2>
+          </div>
+          <article class="info-tile">
+            <h3>организатор</h3>
+            <p class="section-text">
+              Планируете выступление или сюрприз? Наша организатор Ксения поможет
+              всё красиво организовать, а мы будем в восторге!
+            </p>
+            <a class="button button--secondary button--contact" href="tel://+79998887766">
+              +7 999 888 77 66
+            </a>
+          </article>
+          <article class="info-tile">
+            <h3>чат</h3>
+            <p class="section-text">
+              Для удобства гостей мы подготовили свадебный чат, где будет собрана
+              вся информация о нашем празднике.
+            </p>
+            <a
+              class="button button--secondary"
+              href="https://t.me/example"
+              target="_blank"
+              rel="noreferrer"
+            >
+              присоединиться
+            </a>
+          </article>
+        </section>
+
+        <section class="card reveal countdown-section" id="countdown">
+          <div class="section-heading">
+            <h2 class="section-title">Мы скажем друг другу “да” через...</h2>
+          </div>
+          <div
+            class="countdown"
+            data-countdown="2026-06-13T17:00:00+10:00"
+            aria-live="polite"
+          >
+            <div class="countdown-item">
+              <span data-unit="days">00</span>
+              <small>дней</small>
+            </div>
+            <div class="countdown-item">
+              <span data-unit="hours">00</span>
+              <small>часов</small>
+            </div>
+            <div class="countdown-item">
+              <span data-unit="minutes">00</span>
+              <small>минут</small>
+            </div>
+            <div class="countdown-item">
+              <span data-unit="seconds">00</span>
+              <small>секунд</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="card reveal rsvp" id="rsvp">
+          <div class="section-heading">
+            <h2 class="section-title">подтвердите присутствие</h2>
+          </div>
+          <p class="section-text">
+            Чтобы мы могли комфортно подготовить праздник для каждого гостя,
+            просим подтвердить присутствие до <strong class="deadline">15.05.26</strong>
+          </p>
+          <div class="actions actions--center">
+            <a
+              class="button"
+              href="https://google.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              подтвердить
+            </a>
+          </div>
+        </section>
+
+        <footer class="footer reveal">
+          <p>Обнимаем и ждём, Надя и Паша</p>
+        </footer>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
