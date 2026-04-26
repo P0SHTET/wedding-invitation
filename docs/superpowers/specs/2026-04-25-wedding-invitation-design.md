@@ -119,11 +119,11 @@ The page is a vertical sequence of sections:
 
 Provided assets in `.for-codex`:
 
-- `background.jpg`
-- `children_photo.png`
-- `dress.png`
-- `leaf.png`
-- `place.png`
+- `background.webp`
+- `children_photo.webp`
+- `dress.webp`
+- `leaf.webp`
+- `place.webp`
 
 ## Technical Structure
 
